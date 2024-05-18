@@ -3,12 +3,13 @@ import org.opencv.core.Mat;
 import org.opencv.core.Scalar;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
+
 public class TreeDetection {
     public static void main(String[] args) {
-        // Load the OpenCV library:
+        // Load the OpenCV library
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
         
-        // Read the input image:
+        // Read the input image
         Mat img = Imgcodecs.imread("tree_image.jpg");
         
         // Convert the image to grayscale
