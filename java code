@@ -5,7 +5,7 @@ import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 public class TreeDetection {
     public static void main(String[] args) {
-        // Load the OpenCV library
+        // Load the OpenCV library000000000000
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
         
         // Read the input image.
